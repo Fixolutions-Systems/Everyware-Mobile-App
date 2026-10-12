@@ -39,14 +39,11 @@ export default function Hero({ onOpenQrModal }) {
             EveryWare is your smart home service app. Just describe your appliance issue — we take incessant calls and the hassle away. We assign authorised technicians with real-time live GPS tracking, clean transparent pricing, and guaranteed work.
           </m.p>
 
-          <m.div className="hero-ctas-row" variants={itemVariants}>
+          <m.div className="hero-cta-group" variants={itemVariants}>
             <button className="btn btn-coral" onClick={onOpenQrModal}>
               Book a Service
               <ArrowRight size={16} />
             </button>
-          </m.div>
-
-          <m.div className="hero-store-buttons" variants={itemVariants}>
             <button className="btn-store-black" onClick={onOpenQrModal}>
               <svg viewBox="0 0 512 512"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58-33.3-60.7 60.7 60.7 60.7 58-33.3c22-12.6 22-32.2 0-44.8zM325.3 277.7l60.1 60.1L104.6 499l220.7-221.3z"/></svg>
               Get on Play Store

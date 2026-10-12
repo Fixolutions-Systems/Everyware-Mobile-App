@@ -32,7 +32,7 @@ export default function InfoDirectoryPage({ onOpenQrModal }) {
             <Search className="search-icon" size={18} />
             <input
               type="text"
-              placeholder="Search by brand name (e.g. Panasonic, LG, Samsung, Voltas, Kent)..."
+              placeholder="Search brands, e.g. LG, Samsung"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="info-search-input"
