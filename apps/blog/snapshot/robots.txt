@@ -1,0 +1,29 @@
+# robots.txt for Everyware — generated at build time, do not edit by hand.
+# Source: packages/seo-core/src/robots.ts
+
+User-agent: *
+Allow: /
+
+# AI and generative-search crawlers are explicitly welcome.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+Sitemap: https://everyware.in/sitemap.xml
